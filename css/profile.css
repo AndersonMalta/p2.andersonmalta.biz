@@ -1,0 +1,161 @@
+/*
+------------------------------------------------------------------------------------------------
+  Tattler  CSS                       
+------------------------------------------------------------------------------------------------
+  Created:  01-11-2013                            
+  Author:   Anderson Malta           
+  Website:  www.andersonmalta.com                        
+------------------------------------------------------------------------------------------------
+Note: Mouth image on main page by Linda Gavin - www.jusum.com - Berlin / http://dribbble.com/jusum
+*/
+
+/*
+------------------------------------------------------------------------------------------------
+B A S I C S                     
+------------------------------------------------------------------------------------------------
+*/
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+html, body, #wrapper{
+	width:100%;
+	height:100%;
+}
+
+
+body{
+	font-size:14px;
+	background-color:#FFFFFF;
+	font-family: "Courier New", Courier, monospace;
+}
+
+a img { 
+  border: none;
+}
+
+ul{
+	list-style-type:none;
+	}
+
+
+.empty{
+	clear:both;
+	padding-top: 2em;
+}
+
+#wrapper{
+	width:960px; 
+	margin:0 auto;
+}
+
+/*
+------------------------------------------------------------------------------------------------
+M A I N   C O N T E N T S                     
+------------------------------------------------------------------------------------------------
+*/
+
+#logo a {
+	color:#000000; 
+	text-decoration:none;
+    display:inline-block;
+    background-color: #FFBD00;
+    padding:2em .5em;
+}
+
+#logo{
+	float: left;
+	
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#mouth{
+	text-align: center;	
+}
+
+#mouth img{
+	max-width: 200px;
+	max-height: 200px;
+}
+
+#sign_log a {
+	float: right;
+	color:#F35276;  
+	font-weight: bolder;
+	text-decoration:none;
+    display:inline-block;
+    padding: .5em 2em; 
+}
+
+#sign_log a:hover{
+	color:#FFBD00;
+	text-decoration:underline;
+	font-weight: bold;
+}
+
+#mainContent{
+	width:960px;
+	padding:20px 0; 
+	margin:0 auto; 
+	font-family: "Courier New", Courier, monospace;
+	font-weight: normal;
+	font-style: normal;
+	font-size:20px;
+	color:#867e79;
+	text-align:justify;
+	padding-bottom: 3em;
+	
+}
+
+/*
+------------------------------------------------------------------------------------------------
+F O O T E R             
+------------------------------------------------------------------------------------------------
+*/
+
+#footer{
+	background-color:#000;
+	padding-top:10px;
+	padding-bottom:20px;
+	color:#FFFFFF;
+	font-size:.8em;
+	clear: both;
+    position: relative;
+	z-index: 10;
+	height: 4em;
+	margin-top: -5em;
+}
+
+#footer #footerLinks {
+	float: right;
+	text-align:left;
+	color:#FFFFFF;
+	padding-right: 1em;
+}
+
+#footer a{
+	color:#F35276;  
+	text-decoration:none;
+	text-transform:uppercase;
+	padding: 1em;
+}
+
+#footer a:hover{
+	color:#FFBD00;
+	text-decoration:underline;
+	font-weight: bold;
+}
+
+#footNotes{
+	width:960px; 
+	margin:0 auto;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: normal;
+	font-style: normal;
+	
+}

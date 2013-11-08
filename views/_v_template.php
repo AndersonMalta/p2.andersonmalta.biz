@@ -7,6 +7,7 @@
 					
 	<!-- Controller Specific JS/CSS -->
 	<?php if(isset($client_files_head)) echo $client_files_head; ?>
+	<link rel="stylesheet" href="/css/profile.css" type="text/css">
 	
 </head>
 
@@ -15,5 +16,6 @@
 	<?php if(isset($content)) echo $content; ?>
 
 	<?php if(isset($client_files_body)) echo $client_files_body; ?>
+	
 </body>
 </html>

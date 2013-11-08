@@ -14,11 +14,11 @@ If you want a different default time format for this app, set it below
 */
 
 # What is the name of this app?
-	define('APP_NAME', 'Sample App');  
+	define('APP_NAME', 'Tattler');  
 
 # When email is sent out from the server, where should it come from?
 # Ideally, this should match the domain name
-	define('APP_EMAIL', 'webmaster@sample-app.com'); 
+	define('APP_EMAIL', 'anderson.malta@sky.com'); 
 
 /* 
 A email designated to receive messages from the server. Examples:
@@ -28,13 +28,13 @@ A email designated to receive messages from the server. Examples:
  	
  	Some might want this to be the same as the APP_EMAIL, others might want to create a designated gmail address for it
 */ 	
-	define('SYSTEM_EMAIL', 'webmaster@myapp.com'); 
+	define('SYSTEM_EMAIL', 'anderson.malta@sky.com'); 
 
 # Default DB name for this app
 	define('DB_NAME', 'myapp_com'); 
 
 # Timezone
-	define('TIMEZONE', 'America/New_York');
+	define('TIMEZONE', 'Europe/London');
 
 # If your app is going to have outgoing emails, you should fill in your SMTP settings
 # For this you could use gmail SMTP or something like http://sendgrid.com/
