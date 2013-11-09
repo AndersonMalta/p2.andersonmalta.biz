@@ -1,0 +1,13 @@
+2013-11-08 4:26:25 - INFO --> -------------------------- 
+2013-11-08 4:26:25 - INFO --> Controller/Method: users/p_signup 
+2013-11-08 4:26:25 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-08 4:26:25 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-08 4:26:25 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-08 4:26:25 - INFO --> CC:  
+2013-11-08 4:26:25 - INFO --> BCC:  
+2013-11-08 4:26:25 - INFO --> Subject: Tattler SQL Error 
+2013-11-08 4:26:25 - INFO --> Body: <h2>SQL Error</h2> SELECT email FROM users WHERE email = 's' No database selected<h2>Query History</h2>0 = SELECT email FROM users WHERE email = 's'<br><h2>SERVER</h2><pre>Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => localhost
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS  

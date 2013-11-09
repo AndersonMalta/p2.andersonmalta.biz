@@ -114,6 +114,41 @@ M A I N   C O N T E N T S
 
 /*
 ------------------------------------------------------------------------------------------------
+F O R M S           
+------------------------------------------------------------------------------------------------
+*/
+form{
+
+float: left;
+text-align: left;
+margin-right: 0.5em;
+}
+
+.field{
+	border-radius: 10px;
+	border-color: #FFBD00;
+	padding: .2em;
+	margin: .5em 0em;
+
+}
+
+.button{
+	color: #F35276;
+	font-weight: bold;
+	background: #fee3ad;
+	border: 4px outset #F35276;
+	padding: .2em;
+	border-radius: 40px;
+	margin: .5em 0em;
+}
+
+input
+{
+	background: #fee3ad;
+	border: 4px solid #F35276;
+}
+/*
+------------------------------------------------------------------------------------------------
 F O O T E R             
 ------------------------------------------------------------------------------------------------
 */
@@ -121,7 +156,7 @@ F O O T E R
 #footer{
 	background-color:#000;
 	padding-top:10px;
-	padding-bottom:20px;
+	padding-bottom:30px;
 	color:#FFFFFF;
 	font-size:.8em;
 	clear: both;

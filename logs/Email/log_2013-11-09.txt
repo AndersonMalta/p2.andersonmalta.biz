@@ -1,0 +1,44 @@
+2013-11-09 17:30:53 - INFO --> -------------------------- 
+2013-11-09 17:30:53 - INFO --> Controller/Method: users/p_signup 
+2013-11-09 17:30:54 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-09 17:30:54 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-09 17:30:54 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-09 17:30:54 - INFO --> CC:  
+2013-11-09 17:30:54 - INFO --> BCC:  
+2013-11-09 17:30:54 - INFO --> Subject: Tattler SQL Error 
+2013-11-09 17:30:54 - INFO --> Body: <h2>SQL Error</h2> SELECT email FROM users WHERE email = '' No database selected<h2>Query History</h2>0 = SELECT email FROM users WHERE email = ''<br><h2>SERVER</h2><pre>Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => localhost
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X  
+2013-11-09 17:31:13 - INFO --> -------------------------- 
+2013-11-09 17:31:13 - INFO --> Controller/Method: users/p_signup 
+2013-11-09 17:31:13 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-09 17:31:13 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-09 17:31:13 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-09 17:31:13 - INFO --> CC:  
+2013-11-09 17:31:13 - INFO --> BCC:  
+2013-11-09 17:31:13 - INFO --> Subject: Tattler SQL Error 
+2013-11-09 17:31:13 - INFO --> Body: <h2>SQL Error</h2> SELECT email FROM users WHERE email = '' No database selected<h2>Query History</h2>0 = SELECT email FROM users WHERE email = ''<br><h2>SERVER</h2><pre>Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => localhost
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X  
+2013-11-09 18:14:53 - INFO --> -------------------------- 
+2013-11-09 18:14:53 - INFO --> Controller/Method: users/p_signup 
+2013-11-09 18:14:53 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-09 18:14:53 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-09 18:14:53 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-09 18:14:53 - INFO --> CC:  
+2013-11-09 18:14:53 - INFO --> BCC:  
+2013-11-09 18:14:53 - INFO --> Subject: Tattler SQL Error 
+2013-11-09 18:14:53 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO users SET first_name = 'Anderson', last_name = 'Lindao', email = 'govindamadhavadas@hotmail.com', password = 'vrindadevi' No database selected<h2>Query History</h2>0 = INSERT INTO users SET first_name = 'Anderson', last_name = 'Lindao', email = 'govindamadhavadas@hotma 
+2013-11-09 18:21:01 - INFO --> -------------------------- 
+2013-11-09 18:21:01 - INFO --> Controller/Method: users/p_signup 
+2013-11-09 18:21:01 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-09 18:21:01 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-09 18:21:01 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-09 18:21:01 - INFO --> CC:  
+2013-11-09 18:21:01 - INFO --> BCC:  
+2013-11-09 18:21:01 - INFO --> Subject: Tattler SQL Error 
+2013-11-09 18:21:01 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO users SET first_name = 'Anderson', last_name = 'Lindao', email = 'govindamadhavadas@hotmail.com', password = 'vrindadevi' No database selected<h2>Query History</h2>0 = INSERT INTO users SET first_name = 'Anderson', last_name = 'Lindao', email = 'govindamadhavadas@hotma 
