@@ -1,0 +1,201 @@
+2013-11-10 0:23:12 - INFO --> -------------------------- 
+2013-11-10 0:23:12 - INFO --> Controller/Method: posts/p_add 
+2013-11-10 0:23:12 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 0:23:12 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 0:23:12 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 0:23:12 - INFO --> CC:  
+2013-11-10 0:23:12 - INFO --> BCC:  
+2013-11-10 0:23:12 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 0:23:12 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO posts SET content = 'Hare Krishna!\r\n', user_id = '10', created = '1384042992', modified = '1384042992' Table 'p2_andersonmalta_biz.posts' doesn't exist<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = 'ddff8502fa0f9fed9b5b2d7ab11b762d72660523'
+			 
+2013-11-10 0:31:34 - INFO --> -------------------------- 
+2013-11-10 0:31:34 - INFO --> Controller/Method: posts/p_add 
+2013-11-10 0:31:34 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 0:31:34 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 0:31:34 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 0:31:34 - INFO --> CC:  
+2013-11-10 0:31:34 - INFO --> BCC:  
+2013-11-10 0:31:34 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 0:31:34 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO posts SET content = 'Haribol!', user_id = '10', created = '1384043494', modified = '1384043494' Duplicate entry '0' for key 'PRIMARY'<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = 'ddff8502fa0f9fed9b5b2d7ab11b762d72660523'
+					LIMIT 1<br>1 = INS 
+2013-11-10 0:50:06 - INFO --> -------------------------- 
+2013-11-10 0:50:06 - INFO --> Controller/Method: posts/p_add 
+2013-11-10 0:50:06 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 0:50:06 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 0:50:06 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 0:50:06 - INFO --> CC:  
+2013-11-10 0:50:06 - INFO --> BCC:  
+2013-11-10 0:50:06 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 0:50:06 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO posts SET user_id = '10', created = '1384044606', modified = '1384044606' Duplicate entry '0' for key 'PRIMARY'<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = 'ddff8502fa0f9fed9b5b2d7ab11b762d72660523'
+					LIMIT 1<br>1 = INSERT INTO posts SET use 
+2013-11-10 0:53:08 - INFO --> -------------------------- 
+2013-11-10 0:53:08 - INFO --> Controller/Method: posts/follow 
+2013-11-10 0:53:08 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 0:53:08 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 0:53:08 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 0:53:08 - INFO --> CC:  
+2013-11-10 0:53:08 - INFO --> BCC:  
+2013-11-10 0:53:08 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 0:53:08 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO users_users SET created = '1384044788', user_id = '10', user_id_followed = '1' Cannot add or update a child row: a foreign key constraint fails (`p2_andersonmalta_biz`.`users_users`, CONSTRAINT `users_users_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users_users` (`use 
+2013-11-10 0:53:12 - INFO --> -------------------------- 
+2013-11-10 0:53:12 - INFO --> Controller/Method: posts/follow 
+2013-11-10 0:53:12 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 0:53:12 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 0:53:12 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 0:53:12 - INFO --> CC:  
+2013-11-10 0:53:12 - INFO --> BCC:  
+2013-11-10 0:53:12 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 0:53:12 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO users_users SET created = '1384044792', user_id = '10', user_id_followed = '5' Cannot add or update a child row: a foreign key constraint fails (`p2_andersonmalta_biz`.`users_users`, CONSTRAINT `users_users_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users_users` (`use 
+2013-11-10 0:58:19 - INFO --> -------------------------- 
+2013-11-10 0:58:19 - INFO --> Controller/Method: posts/follow 
+2013-11-10 0:58:19 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 0:58:19 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 0:58:19 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 0:58:19 - INFO --> CC:  
+2013-11-10 0:58:19 - INFO --> BCC:  
+2013-11-10 0:58:19 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 0:58:19 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO users_users SET created = '1384045099', user_id = '10', user_id_followed = '2' Cannot add or update a child row: a foreign key constraint fails (`p2_andersonmalta_biz`.`users_users`, CONSTRAINT `users_users_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users_users` (`use 
+2013-11-10 7:32:49 - INFO --> -------------------------- 
+2013-11-10 7:32:49 - INFO --> Controller/Method: posts/index 
+2013-11-10 7:32:49 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 7:32:49 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 7:32:49 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 7:32:49 - INFO --> CC:  
+2013-11-10 7:32:49 - INFO --> BCC:  
+2013-11-10 7:32:49 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 7:32:49 - INFO --> Body: <h2>SQL Error</h2> SELECT
+              posts.* ,
+              users.first_name,
+              users.last_name,
+              users.avatar
+            FROM posts
+            INNER JOIN users ON posts.user_id = users.user_id
+            ORDER BY modified DESC Unknown column 'users.avatar' in 'field  
+2013-11-10 7:33:11 - INFO --> -------------------------- 
+2013-11-10 7:33:11 - INFO --> Controller/Method: posts/following 
+2013-11-10 7:33:11 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 7:33:11 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 7:33:11 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 7:33:11 - INFO --> CC:  
+2013-11-10 7:33:11 - INFO --> BCC:  
+2013-11-10 7:33:11 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 7:33:11 - INFO --> Body: <h2>SQL Error</h2> SELECT
+              posts.* ,
+              users.first_name,
+              users.last_name,
+              users.avatar
+            FROM posts
+            INNER JOIN users ON posts.user_id = users.user_id
+            INNER JOIN users_users ON posts.user_id = users_users.user_id_f 
+2013-11-10 8:00:16 - INFO --> -------------------------- 
+2013-11-10 8:00:16 - INFO --> Controller/Method: posts/following 
+2013-11-10 8:00:16 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 8:00:16 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 8:00:16 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 8:00:16 - INFO --> CC:  
+2013-11-10 8:00:16 - INFO --> BCC:  
+2013-11-10 8:00:16 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 8:00:16 - INFO --> Body: <h2>SQL Error</h2> SELECT
+              posts.* ,
+              users.first_name,
+              users.last_name,
+              users.avatar
+            FROM posts
+            INNER JOIN users ON posts.user_id = users.user_id
+            INNER JOIN users_users ON posts.user_id = users_users.user_id_f 
+2013-11-10 8:01:48 - INFO --> -------------------------- 
+2013-11-10 8:01:48 - INFO --> Controller/Method: posts/following 
+2013-11-10 8:01:48 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 8:01:48 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 8:01:48 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 8:01:48 - INFO --> CC:  
+2013-11-10 8:01:48 - INFO --> BCC:  
+2013-11-10 8:01:48 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 8:01:48 - INFO --> Body: <h2>SQL Error</h2> SELECT
+              posts.* ,
+              users.first_name,
+              users.last_name,
+              users.avatar
+            FROM posts
+            INNER JOIN users ON posts.user_id = users.user_id
+            INNER JOIN users_users ON posts.user_id = users_users.user_id_f 
+2013-11-10 8:01:50 - INFO --> -------------------------- 
+2013-11-10 8:01:50 - INFO --> Controller/Method: posts/index 
+2013-11-10 8:01:50 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 8:01:50 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 8:01:50 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 8:01:50 - INFO --> CC:  
+2013-11-10 8:01:50 - INFO --> BCC:  
+2013-11-10 8:01:50 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 8:01:50 - INFO --> Body: <h2>SQL Error</h2> SELECT
+              posts.* ,
+              users.first_name,
+              users.last_name,
+              users.avatar
+            FROM posts
+            INNER JOIN users ON posts.user_id = users.user_id
+            ORDER BY modified DESC Unknown column 'users.avatar' in 'field  
+2013-11-10 8:02:04 - INFO --> -------------------------- 
+2013-11-10 8:02:04 - INFO --> Controller/Method: posts/p_add 
+2013-11-10 8:02:04 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 8:02:04 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 8:02:04 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 8:02:04 - INFO --> CC:  
+2013-11-10 8:02:04 - INFO --> BCC:  
+2013-11-10 8:02:04 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 8:02:04 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO posts SET content = 'Hare Krishna Hare Rama', user_id = '10', created = '1384070524', modified = '1384070524' Duplicate entry '0' for key 'PRIMARY'<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = 'b9f7d6c5e997dbb5c3bbc7131a1d8d80aa6b4f4c'
+					LIMI 
+2013-11-10 8:13:46 - INFO --> -------------------------- 
+2013-11-10 8:13:46 - INFO --> Controller/Method: posts/follow 
+2013-11-10 8:13:46 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 8:13:46 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 8:13:46 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 8:13:46 - INFO --> CC:  
+2013-11-10 8:13:46 - INFO --> BCC:  
+2013-11-10 8:13:46 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 8:13:46 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO users_users SET created = '1384071226', user_id = '13', user_id_followed = '6' Cannot add or update a child row: a foreign key constraint fails (`p2_andersonmalta_biz`.`users_users`, CONSTRAINT `users_users_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users_users` (`use 
+2013-11-10 8:14:23 - INFO --> -------------------------- 
+2013-11-10 8:14:23 - INFO --> Controller/Method: posts/index 
+2013-11-10 8:14:23 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 8:14:23 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 8:14:23 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 8:14:23 - INFO --> CC:  
+2013-11-10 8:14:23 - INFO --> BCC:  
+2013-11-10 8:14:23 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 8:14:23 - INFO --> Body: <h2>SQL Error</h2> SELECT
+              posts.* ,
+              users.first_name,
+              users.last_name,
+              users.avatar
+            FROM posts
+            INNER JOIN users ON posts.user_id = users.user_id
+            ORDER BY modified DESC Unknown column 'users.avatar' in 'field  
+2013-11-10 8:14:42 - INFO --> -------------------------- 
+2013-11-10 8:14:42 - INFO --> Controller/Method: posts/p_add 
+2013-11-10 8:14:42 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 8:14:42 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 8:14:42 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 8:14:42 - INFO --> CC:  
+2013-11-10 8:14:42 - INFO --> BCC:  
+2013-11-10 8:14:42 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 8:14:42 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO posts SET content = 'Hello, please work!', user_id = '13', created = '1384071282', modified = '1384071282' Duplicate entry '0' for key 'PRIMARY'<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = '858adfc312d833b8d39f80ae721b8bb59a8fcc94'
+					LIMIT 1 
+2013-11-10 8:30:37 - INFO --> -------------------------- 
+2013-11-10 8:30:37 - INFO --> Controller/Method: posts/follow 
+2013-11-10 8:30:37 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-10 8:30:37 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-10 8:30:37 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-10 8:30:37 - INFO --> CC:  
+2013-11-10 8:30:37 - INFO --> BCC:  
+2013-11-10 8:30:37 - INFO --> Subject: Tattler SQL Error 
+2013-11-10 8:30:37 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO users_users SET created = '1384072237', user_id = '13', user_id_followed = '7' Cannot add or update a child row: a foreign key constraint fails (`p2_andersonmalta_biz`.`users_users`, CONSTRAINT `users_users_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users_users` (`use 

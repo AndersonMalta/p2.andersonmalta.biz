@@ -83,7 +83,7 @@ M A I N   C O N T E N T S
 	max-height: 200px;
 }
 
-#sign_log a {
+.sign_log a {
 	float: right;
 	color:#F35276;  
 	font-weight: bolder;
@@ -92,7 +92,7 @@ M A I N   C O N T E N T S
     padding: .5em 2em; 
 }
 
-#sign_log a:hover{
+.sign_log a:hover{
 	color:#FFBD00;
 	text-decoration:underline;
 	font-weight: bold;
@@ -110,6 +110,13 @@ M A I N   C O N T E N T S
 	text-align:justify;
 	padding-bottom: 3em;
 	
+}
+
+.date{
+	font-weight: bold;
+	 font-size: 0.7em;
+        font-style: italic;
+        color: #666666;
 }
 
 /*

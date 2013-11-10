@@ -42,3 +42,64 @@
 2013-11-09 18:21:01 - INFO --> BCC:  
 2013-11-09 18:21:01 - INFO --> Subject: Tattler SQL Error 
 2013-11-09 18:21:01 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO users SET first_name = 'Anderson', last_name = 'Lindao', email = 'govindamadhavadas@hotmail.com', password = 'vrindadevi' No database selected<h2>Query History</h2>0 = INSERT INTO users SET first_name = 'Anderson', last_name = 'Lindao', email = 'govindamadhavadas@hotma 
+2013-11-09 23:34:53 - INFO --> -------------------------- 
+2013-11-09 23:34:53 - INFO --> Controller/Method: posts/index 
+2013-11-09 23:34:53 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-09 23:34:53 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-09 23:34:53 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-09 23:34:53 - INFO --> CC:  
+2013-11-09 23:34:53 - INFO --> BCC:  
+2013-11-09 23:34:53 - INFO --> Subject: Tattler SQL Error 
+2013-11-09 23:34:53 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+            posts.content,
+            posts.created,
+            posts.user_id AS post_user_id,
+            users_users.user_id AS follower_id,
+            users.first_name,
+            users.last_name
+        FROM posts
+        INNER JOIN users_users 
+            ON post 
+2013-11-09 23:34:57 - INFO --> -------------------------- 
+2013-11-09 23:34:57 - INFO --> Controller/Method: posts/users 
+2013-11-09 23:34:57 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-09 23:34:57 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-09 23:34:57 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-09 23:34:57 - INFO --> CC:  
+2013-11-09 23:34:57 - INFO --> BCC:  
+2013-11-09 23:34:57 - INFO --> Subject: Tattler SQL Error 
+2013-11-09 23:34:57 - INFO --> Body: <h2>SQL Error</h2> SELECT * 
+                FROM users_users
+                WHERE user_id = 10 Table 'p2_andersonmalta_biz.users_users' doesn't exist<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = 'ddff8502fa0f9fed9b5b2d7ab11b762d72660523'
+					LIMIT 1<br>1 = SELECT *
+        
+2013-11-09 23:35:24 - INFO --> -------------------------- 
+2013-11-09 23:35:24 - INFO --> Controller/Method: posts/p_add 
+2013-11-09 23:35:24 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-09 23:35:24 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-09 23:35:24 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-09 23:35:24 - INFO --> CC:  
+2013-11-09 23:35:24 - INFO --> BCC:  
+2013-11-09 23:35:24 - INFO --> Subject: Tattler SQL Error 
+2013-11-09 23:35:24 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO posts SET content = 'Very nice site!\r\n', user_id = '10', created = '1384040124', modified = '1384040124' Table 'p2_andersonmalta_biz.posts' doesn't exist<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = 'ddff8502fa0f9fed9b5b2d7ab11b762d72660523'
+	 
+2013-11-09 23:48:39 - INFO --> -------------------------- 
+2013-11-09 23:48:39 - INFO --> Controller/Method: users/profile 
+2013-11-09 23:48:39 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY andersonmaltadasilva@fas.harvard.edu 
+2013-11-09 23:48:39 - INFO --> From: Tattler (andersonmaltadasilva@fas.harvard.edu) 
+2013-11-09 23:48:39 - INFO --> To: Tattler (andersonmaltadasilva@fas.harvard.edu),  
+2013-11-09 23:48:39 - INFO --> CC:  
+2013-11-09 23:48:39 - INFO --> BCC:  
+2013-11-09 23:48:39 - INFO --> Subject: Tattler SQL Error 
+2013-11-09 23:48:39 - INFO --> Body: <h2>SQL Error</h2> SELECT *
+            FROM posts
+            WHERE user_id = 10 Table 'p2_andersonmalta_biz.posts' doesn't exist<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = 'ddff8502fa0f9fed9b5b2d7ab11b762d72660523'
+					LIMIT 1<br>1 = SELECT *
+            FROM posts
+      
