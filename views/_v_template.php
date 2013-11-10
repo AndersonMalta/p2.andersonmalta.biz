@@ -24,48 +24,50 @@
 		<!-- Menu for users who are logged in -->
         <br>
         <?php if($user): ?>
-        <div class="sign_log">
-            <ul>
-                <li>
-                    <a href='/users/profile'>Profile</a>
-                </li>
-                <li>
-                    <a href='/posts/add'>New Post</a>
-                </li>
-                <li>
-                    <a href='/posts/index'>All Posts</a>
-                </li>
-                <li>
-                    <a href='/posts/following'>Friends' Posts</a>
-                </li>
-                <li>
-                    <a href='/posts/users'>All Users</a>
-                </li>
-                <li>
-                    <a href='/users/logout'>Logout</a>
-                </li>
-            </ul>
-        </div><!--end of sign_log-->
+            <div class="sign_log">
+                <ul>
+                    <li>
+                        <a href='/users/profile'>Profile</a>
+                    </li>
+                    <li>
+                        <a href='/posts/add'>New Post</a>
+                    </li>
+                    <li>
+                        <a href='/posts/index'>All Posts</a>
+                    </li>
+                    <li>
+                        <a href='/posts/following'>Friends' Posts</a>
+                    </li>
+                    <li>
+                        <a href='/posts/users'>All Users</a>
+                    </li>
+                    <li>
+                        <a href='/users/logout'>Logout</a>
+                    </li>
+                </ul>
+            </div><!--end of sign_log-->
 
             <!-- Menu options for users who are not logged in -->
         <?php else: ?>
-        <div class="sign_log">
-            <ul>
-                <li>
-                    <a href='/users/signup'>| Sign Up</a>
-                </li>
-                <li>
-                    <a href='/users/login'>| Log In</a>
-                </li>
-            </ul>
+
+            <div class="sign_log">
+                <ul>
+                    <li>
+                        <a href='/users/signup'>| Sign Up</a>
+                    </li>
+                    <li>
+                        <a href='/users/login'>| Log In</a>
+                    </li>
+                </ul>
             </div><!--end of sign_log-->
+
         <?php endif; ?>
         
 
 		<div class="empty"></div><!--end of empty - just a class to clear floats-->
 
 		<div id="mouth">
-				<img src="/uploads/images/bouche.gif" alt="mouth gossiping"/>
+			<img src="/uploads/images/bouche.gif" alt="mouth gossiping"/>
 		</div><!--end of mouth-->
 
 	<?php if(isset($content)) echo $content; ?>
