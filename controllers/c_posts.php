@@ -23,9 +23,9 @@ class posts_controller extends base_controller {
               users.first_name,
               users.last_name,
               users.avatar
-            FROM posts
-            INNER JOIN users ON posts.user_id = users.user_id
-            ORDER BY modified DESC";
+              FROM posts
+              INNER JOIN users ON posts.user_id = users.user_id
+              ORDER BY modified DESC";
 
         # Run the query
         $posts = DB::instance(DB_NAME)->select_rows($q);
@@ -50,11 +50,11 @@ class posts_controller extends base_controller {
               users.first_name,
               users.last_name,
               users.avatar
-            FROM posts
-            INNER JOIN users ON posts.user_id = users.user_id
-            INNER JOIN users_users ON posts.user_id = users_users.user_id_followed
-            WHERE users_users.user_id = ".$this->user->user_id."
-             ORDER BY created DESC";
+              FROM posts
+              INNER JOIN users ON posts.user_id = users.user_id
+              INNER JOIN users_users ON posts.user_id = users_users.user_id_followed
+              WHERE users_users.user_id = ".$this->user->user_id."
+              ORDER BY created DESC";
 
         # Run the query
         $posts = DB::instance(DB_NAME)->select_rows($q);
@@ -115,8 +115,8 @@ class posts_controller extends base_controller {
 
         # Find the original post
         $q = "SELECT posts.content
-                FROM posts
-                WHERE post_id = ".$post_id;
+              FROM posts
+              WHERE post_id = ".$post_id;
 
         # Select original post from the database
         $post = DB::instance(DB_NAME)->select_field($q);
@@ -161,9 +161,9 @@ class posts_controller extends base_controller {
 
         # Build the query
         $q = "SELECT posts.*
-                FROM posts
-                WHERE user_id = ".$this->user->user_id.
-                " ORDER BY created DESC";
+              FROM posts
+              WHERE user_id = ".$this->user->user_id.
+              "ORDER BY created DESC";
 
         # Run the query
         $posts = DB::instance(DB_NAME)->select_rows($q);
@@ -201,7 +201,7 @@ class posts_controller extends base_controller {
 
         # Generate query of all users
         $q = "SELECT *
-                FROM users";
+              FROM users";
 
         # Query the database
         $users = DB::instance(DB_NAME)->select_rows($q);
@@ -209,8 +209,8 @@ class posts_controller extends base_controller {
         # Generate query of all the relationships
         # ... where the current user is the follower
         $q = "SELECT *
-            FROM users_users
-            WHERE user_id = ".$this->user->user_id;
+              FROM users_users
+              WHERE user_id = ".$this->user->user_id;
 
         # Establish the "connections" variable, indexed to user_id_followed
         $connections = DB::instance(DB_NAME)->select_array($q,'user_id_followed');
